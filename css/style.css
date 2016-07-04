@@ -661,7 +661,7 @@
           animation-delay: 0s;
 }
 
-p {
+.text {
   background-color: #1a1a1a;
   color: #fefefe;
   font-family: 'Ubuntu';
