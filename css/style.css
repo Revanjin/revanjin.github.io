@@ -714,3 +714,8 @@
   display: flex;
   transition: box-shadow .3s ease;
 }
+
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
