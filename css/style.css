@@ -748,6 +748,10 @@
   font-family: 'entypo', sans-serif;
 }
 
+header{
+	position: fixed;
+}
+
 header nav ul {
   float: right;
 }
