@@ -696,7 +696,7 @@
 .txt {
   display: block;
 }
-
+/*bastarde... boxen gehen mir aufn sack*/
 .box {
   width: 100%;
   height: 300px;
@@ -731,7 +731,68 @@
   transition: box-shadow .3s ease;
 }
 
+/*yummy ausrichtung*/
 #wrap { 
 	width: 1024px; 
 	margin: 0 auto; 
 }
+
+/*JETZT KOMMT DER PART FÜR DIE NAVIGATION*/
+
+@import url(http://fonts.googleapis.com/css?family=Meddon);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav ul li {
+  height: 12px;
+  display: inline-block;
+}
+/*die boxen in der navi*/
+header nav ul li a {
+  opacity: 0.4;
+  height: 30px;
+  display: block;
+  padding: 10px 35px;
+  color: white;
+  font-size: 2.2em;
+  text-decoration: none;
+  border-top: 3px solid #373948;
+  border-bottom: 3px solid #373948;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+header nav ul li a:hover{
+  color: #373948;
+}
+
+header nav ul li a.active{
+  height: 33px;
+  border-bottom: none;
+}
+/*Farben für die boxen*/
+header nav ul li a.link-1 { background-color: #7BC884; }
+header nav ul li a.link-2 { background-color: #D067AD; }
+header nav ul li a.link-3 { background-color: #6794D0; }
+header nav ul li a.link-4 { background-color: #5bd999; }
+
+
+/*section {
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+}*//*DAS MACHT MIR ALLES KAPUTT.... ma gucken wann ich das fixxe...*/
+
