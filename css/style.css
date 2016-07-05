@@ -673,7 +673,7 @@
   text-rendering: optimizeLegibility;
   text-align: center;
 }
-
+/*text für geteilten in der spastenbox*/
 .text2 {
   color: #fefefe;
   font-family: 'Ubuntu';
@@ -683,6 +683,22 @@
   margin: 10px;
   text-rendering: optimizeLegibility;
   text-align: left;
+   max-width: 300px;
+}
+/*text für durchläufig in der spastenbox*/
+.text1 {
+  color: #fefefe;
+  font-family: 'Ubuntu';
+  font-size: 1.2em;
+  line-height: 2;
+  font-weight: 300;
+  margin: 10px;
+  text-rendering: optimizeLegibility;
+  text-align: left;
+}
+
+.boxmargin {
+	margin: 10px;
 }
 
 .container {
