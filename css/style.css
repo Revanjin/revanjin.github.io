@@ -695,6 +695,7 @@
   margin: 10px;
   text-rendering: optimizeLegibility;
   text-align: left;
+  max-width: 630;
 }
 
 .boxmargin {
@@ -731,7 +732,6 @@
 }
 
 .boxright {
-  width: 100%;
   height: 300px;
   top: 20%;
   position: relative;
@@ -745,6 +745,7 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
   display: flex;
   transition: box-shadow .3s ease;
+  margin-right: 50px;
 }
 
 /*yummy ausrichtung*/
