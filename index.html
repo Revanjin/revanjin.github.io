@@ -1,106 +1,56 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tana's Lebenslauf</title>
-	
-	<style>
-	body{
-	    display: inline-block;
-		margin-left: 50px;
-		margin-right: 50px;
-	}
-	h1	{  
-		font-size: 32px;
-		font-family: open sans;
-		color: #710A0F;
-	}
-	p#test	{  
-		font-size: 18px;
-		font-family: open sans;
-	}
-	p	{  
-		font-size: 15px;
-		font-family: open sans ;
-		color: #3F3E40;
-	}
-	.tab1 {
-		margin-left: 76px;
-	}
-	.tab2 {
-		margin-left: 115px;
-	}
-	.tabname {
-		margin-left: 116px;
-	}
-	.tabanschrift {
-		margin-left: 95px;
-	}
-	.tabtelefon {
-		margin-left: 105px;
-	}
-	.tabstaat {
-		margin-left: 18px;
-	}
-	.tabprak{
-		margin-left: 165px;
-	}
-	img	{
-		float: right ;
-		width: 160px;
-		margin-top: 50px;
-		border-bottom-left-radius: 20px;
-		border-bottom-right-radius: 20px;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;;
-		box-shadow: 5px 5px 5px silver;
-	}
-	.underlinepd{
-		border-bottom:1px solid #000000;
-		width:70%; 
-	}
-	.underline{
-		border-bottom:1px solid #000000; 
-		width:100%; 
-	}
-    </style>
-	
-  </head>
-  <body>
-	<img src="pic.png">
-	<h1>LEBENSSLAUF</h1>	
-	<p id="test" class="underlinepd"><b>Persönliche Daten</b></p>
-	<p>Name:<span class="tabname"> Alexander Tanachai Thürling<span></p>
-	<p>Anschrift:<span class="tabanschrift"> Wolkenburg 28<span></p>
-	<p>Telefon:<span class="tabtelefon"> 01575 / 06 27 123<span></p>
-	<p>Staatsangehörigkeit:<span class="tabstaat"> Deutsch<span></p>
-	
-	<p id="test" class="underline"><b>Schulausbildung</b></p>
-	<p>2014 –<span class="tab2"> FH-Koeln Campus Gummersbach - Medieninformatik</span></p>
-	<p>2013 – 2014<span class="tab1"> Bergische Universität Wuppertal – Bauingenieurwesen</span></p>
-	<p>2010 – 2013<span class="tab1"> Berufskolleg am Haspel, Wuppertal - Allg. Hochschulreife</span></p>
-	<p>2003 – 2010<span class="tab1"> Realschule Neue Friedrichstraße, Wuppertal - Fachoberschulreife</span></p>
-	<p>2001 – 2002<span class="tab1"> Burapha English Programme School (B.E.S.T.) , Thailand - Pattaya</span></p>
-	<p>1998 – 2001<span class="tab1"> Grundschule Hombüchel, Wuppertal
-	
-	<p id="test" class="underline"> <b>Bisherige Praktika und Arbeit</b></p>
-	<p class="tabprak"> <b>2-wöchiges Schulpraktikum</b></p>
-	<p class="tabprak"> Kellner im Restaurant Sawasdee, Wuppertal</p>
-	<p class="tabprak"> <b>4-wöchiges Freiwilliges Praktikum</b></p>
-	<p class="tabprak"> Dachdecker im Meisterbetrieb Carsten Pick, Wuppertal</p>
-	<p class="tabprak"> Seit November 2015 Aushilfskraft bei Gamestop, Wuppertal</p>
-	
-	<p id="test" class="underline"><b>Sprachkenntnisse</b></p>
-	<p class="tabprak">Sehr gute Englisch- und Deutschkenntnisse</p>
-	<p class="tabprak">Thai (Anfänger)</p>
-	<p class="tabprak">Französisch (Anfänger)</p>
-	
-	<p id="test" class="underline"><b>Sonstiges</b></p>
-	<p class="tabprak">Leistungskurs Mathematik und Bautechnik</p>
-	<p class="tabprak">Nachhilfelehrer für Mathematik und Englisch</p>
-	<br><p id="test" class="underline"></p>
-	<a href="Lebenslauf.pdf" download="Lebenslauf.pdf"><b>Lebenslauf als .pdf herunterladen</b></a>
-	
-  </body>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<h1>Dies ist eine Präsentation</h1>
+				<p>Eine Präsentation von Sebastian Schmoll und Alexander Tanachai Thürling</p>
+				
+				</section>
+				<section>
+					<section><p>Hier entsteht eine Präsentation</p></section>
+					<section><p>Test</p></section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
