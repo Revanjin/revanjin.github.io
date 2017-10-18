@@ -20,6 +20,8 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>.left{ text-align: left; }</style>
+		
 	</head>
 	<body>
 		<div class="reveal">
@@ -29,7 +31,7 @@
 				<h1>Mainboard</h1>
 				<p style='font-size: 20px'>Einennn Präsentation von Sebastian Schmoll, Alpha Prechtl und Alexander Tanachai Thürling</p>
 				</section>
-				<section><!--INHALT-->
+				<section><!--INHALT--><p class="left">Inhalt</p>
 					<section>
 						<p>CPU Sockel</br><img src="mainimg/2.png" height="400px"></p>
 					</section>
@@ -59,7 +61,7 @@
 					</section>
 				</section>
 				
-				<section><!--START CPU SOCKELZ-->
+				<section><!--START CPU SOCKELZ--><p class="left">CPU Sockel</p>
 					<section>
 						<h4>Steckplatzvorrichtung</h4>
 						<h4 class="fragment">CPU austauschbar</h4>
@@ -77,7 +79,7 @@
 					</section>
 				</section><!--END CPU SOCKELZ-->
 				
-				<section><!--START RAMZ-->
+				<section><!--START RAMZ--><p class="left">RAM Slots</p>
 					<section>
 						<h4>Steckplatzvorrichtung</h4>
 						<p class="fragment">RAM austauschbar</p>
@@ -104,13 +106,13 @@
 					</section>
 				</section><!--END RAMZ RISER CARDS-->
 				
-				<section><!--START PCI E-->
+				<section><!--START PCI E--><p class="left">PCI-/ Express</p>
 					<section>
 						<h4>Steckplatzvorrichtung</h4>
 						<h4 class="fragment">Peripheral Component Interconnect</h4>
 					</section>	
 					<section>
-						<p class="fragment">Gerät/Karte austauschbar</p>
+						<p>Gerät/Karte austauschbar</p>
 						<p class="fragment">2 bis 7 Slots</p>
 						<p class="fragment">Bus-Standard für Verbindung</p>
 					</section>
@@ -118,7 +120,7 @@
 						<h4>Peripheral Component Interconnect Express</h4>
 					</section>
 					<section>
-						<p class="fragment">Gerät/Karte austauschbar</p>
+						<p>Gerät/Karte austauschbar</p>
 						<p class="fragment">2 bis 7 Slots</p>
 						<p class="fragment">PCI-Bus, kein shared Bus-System</p>
 					</section>
@@ -132,10 +134,7 @@
 					</section>
 				</section><!--END PCI E-->
 				
-				<section><!--START BOARDANSCHLUSS-->
-					<section>
-						<h4>Boardanschlüsse</h4>
-					</section>
+				<section><!--START BOARDANSCHLUSS--><p class="left">Boardanschlüsse</p>
 					<section>
 						<h4>Externe Anschlüsse / Peripherieanschlüsse</h4>
 						<p class="fragment">PS2 / USB 2.0 und 3.0</p>
@@ -154,23 +153,27 @@
 						<p class="fragment">Panelanschlüsse </br><img src="mainimg/pb.png" height="400px"></p>
 					</section>
 				</section>	
-				<section><!--Formfaktoren-->
+
+				<section><!--Formfaktoren--><p class="left">Formfaktoren</p>
 					<section>
 						<h4>Formfaktoren</h4>
 						<p class="fragment"><img src="mainimg/ff.jpg" height="400px"></p>
 					</section>
 				</section><!--END FORM-->
-				<section><!--TODO: Stromanschluss-->
+
+				<section><!--TODO: Stromanschluss--><p class="left">Stromanschluss</p>
 					<section>
 						<h4>Stromanschluss</h4>
 					</section>
 				</section><!--END TODO___-->
-				<section><!--TODO: CHIPSET-->
+
+				<section><!--TODO: CHIPSET--><p class="left">Chipset</p>
 					<section>
 						<h4>CHIPSET</h4>
 					</section>
 				</section><!--END TODO-->
-				<section><!--BRÜCKEN-->
+
+				<section><!--BRÜCKEN--><p class="left">North- and Southbridge</p>
 					<section>
 						<h4>South- and Northbridge</h4>
 						<p class="fragment"><img src="mainimg/smbus.png" height="400px"></p>
@@ -188,14 +191,22 @@
 						<p class="fragment">PCI-/ Express</p>
 					</section>
 				</section><!--END BRÜCKEN-->
-				<section><!--TODO: Bios-->
+
+				<section><!--TODO: Bios--><p class="left">Bios</p>
 					<section>
 						<h4>BIOS</h4>
 					</section>
 				</section><!--END TODO-->
-				<section><!--TODO: LAST SHIT-->
+
+				<section><!--TODO: LAST SHIT--><p class="left">Fazit</p>
 					<section>
 						<h4>WORAUF MUSS ICH ACHTEN???</h4>
+					</section>
+				</section><!--END TODO-->
+
+				<section><!--TODO: Quellen--><p class="left">Quellen</p>
+					<section>
+						<h4>wikipedio</h4>
 					</section>
 				</section><!--END TODO-->
 			</div>
