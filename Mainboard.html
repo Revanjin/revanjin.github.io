@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>.left{ text-align: left; }</style>
+		
+	</head>
+	<body>
+		<div class="reveal">
+				<img src="LogoHaspel.png" align="right" height="15%">
+			<div class="slides">
+				<section>
+				<h1>Mainboard</h1>
+				<p style='font-size: 20px'>Eine Präsentation von Sebastian Schmoll, Alpha Prechtl und Alexander Tanachai Thürling</p>
+				</section>
+				<section><!--INHALT--><p class="left">Inhalt</p>
+					<section>
+						<p>CPU Sockel</br><img src="mainimg/2.png" height="400px"></p>
+					</section>
+					<section>	
+						<p>Ram Slots</br><img src="mainimg/3.png" height="400px"></p>
+					</section>
+					<section>	
+						<p>PCI / PCI-e</br><img src="mainimg/4.png" height="400px"></p>
+					</section>
+					<section>
+						<p>Boardanschlüsse</br><img src="mainimg/5.png" height="400px"></p>
+					</section>
+					<section>
+						<p>Formfaktoren</br><img src="mainimg/ff.jpg" height="400px"></p>
+					</section>
+					<section>
+						<p>Stromanschluss</br><img src="mainimg/7.png" height="400px"></p>
+					</section>
+					<section>
+						<p>Chipset</br><img src="mainimg/8.png" height="400px"></p>
+					</section>
+					<section>
+						<p>South/North Bridge</br><img src="mainimg/9.png" height="400px"></p>
+					</section>
+					<section>
+						<p>Bios/ Bios Batterie</br><img src="mainimg/10.png" height="400px"></p>
+					</section>
+				</section>
+				
+				<section><!--START CPU SOCKELZ--><p class="left">CPU Sockel</p>
+					<section>
+						<h4>Steckplatzvorrichtung</h4>
+						<h4 class="fragment">CPU austauschbar</h4>
+					</section>
+					<section>
+						<h4>Stecken über</h4>
+						<p class="fragment">LIF<small>(Low Insertion Force)</small> oder ZIF<small>(Zero Insertion Force)</small></p>
+						<p class="fragment">PGA<small>(Pin Grid Array)</small> oder SPGA<small>(Staggered Pin Grid Array)</small></p>
+						<p class="fragment">ggf. auch BGA<small>(Ball Grid Array)</small></p>
+					</section>
+					<section>
+						<h4>Sockelarten</h4>
+						<p class="fragment">Sockel 1150 oder 1366</p><!--4 wäre Generation und 770 die Modellnummer-->
+						<p class="fragment">Sockel TR4 oder AM4</p><!--RYZEN-->
+					</section>
+					<section>
+						<h4>Sockelarten</h4>
+						<img src="mainimg/1150.jpg" height="400px">
+					</section>
+				</section><!--END CPU SOCKELZ-->
+				
+				<section><!--START RAMZ--><p class="left">RAM Slots</p>
+					<section>
+						<h4>Steckplatzvorrichtung</h4>
+						<p class="fragment">RAM austauschbar</p>
+						<p class="fragment">I.d.R. 2 bis 4 Slots</p>
+					</section>
+					<section>
+						<h4>Verschiedene Ram-slots</h4>
+						<p class="fragment">DDR 1 bis 4</p>
+						<p class="fragment">SDRAM</p>
+						<p class="fragment">DIMM</p>
+					</section>
+					<section>
+						<h4>Verschiedene Ram-slots</h4>
+						<p class="fragment">Dual Channel</p>						
+					</section>
+					<section>
+						<h4>Beispiel Anforderungen vom A770CrossFire:</h4>
+						<ol>
+							<li> Dual Channel DDR2 memory technology</li>
+							<li> 4 x DDR2 DIMM slots</li>
+							<li> Supports DDR2 1066*/800/667/533 non-ECC, un-buffered memory</li>
+							<li> Max. capacity of system memory: 16GB**</li>
+						</ol>
+					</section>
+				</section><!--END RAMZ RISER CARDS-->
+				
+				<section><!--START PCI E--><p class="left">PCI-/ Express</p>
+					<section>
+						<h4>Steckplatzvorrichtung</h4>
+						<h4 class="fragment">Peripheral Component Interconnect</h4>
+					</section>	
+					<section>
+						<p>Gerät/Karte austauschbar</p>
+						<p class="fragment">2 bis 7 Slots</p>
+						<p class="fragment">Bus-Standard für Verbindung</p>
+					</section>
+					<section>
+						<h4>Peripheral Component Interconnect Express</h4>
+					</section>
+					<section>
+						<p>Gerät/Karte austauschbar</p>
+						<p class="fragment">2 bis 7 Slots</p>
+						<p class="fragment">PCI-Bus, kein shared Bus-System</p>
+					</section>
+					<section>
+						<h4>Beispiele für die PCI/-E Slots</h4>
+						<p class="fragment">Netzwerkkarten, Modems</p>
+						<p class="fragment">Soundkarten, Grafikkarten usw.</p>
+					</section>	
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... und Riserkarten</h2>
+					</section>
+				</section><!--END PCI E-->
+				
+				<section><!--START BOARDANSCHLUSS--><p class="left">Boardanschlüsse</p>
+					<section>
+						<h4>Externe Anschlüsse / Peripherieanschlüsse</h4>
+						<p class="fragment">PS2 / USB 2.0 und 3.0</p>
+						<p class="fragment">DVI/ DP/ VGA/ HDMI</p>
+						<p class="fragment">Lan und Firewire</p>
+						<p class="fragment">Soundanschluss</p>						
+					</section>	
+					<section>
+						<h4>Interne Anschlüsse</h4>
+						<p class="fragment">Stromanschluss (ATX)</p>
+						<p class="fragment">SATA/IDE Anschluss</p>
+						<p class="fragment">Lüfter</p>
+					</section>
+					<section>
+						<h4>Interne Anschlüsse</h4>
+						<p class="fragment">Panelanschlüsse </br><img src="mainimg/pb.png" height="400px"></p>
+					</section>
+				</section>	
+
+				<section><!--Formfaktoren--><p class="left">Formfaktoren</p>
+					<section>
+						<h4>Formfaktoren</h4>
+						<p class="fragment"><img src="mainimg/ff.jpg" height="400px"></p>
+					</section>
+				</section><!--END FORM-->
+
+				<section><!--Stromanschluss--><p class="left">Stromanschluss</p>
+					<section>
+						<p class="fragment">Versorgt Komponenten mit Strom</p>
+						<p class="fragment">Läuft auch im Standby</p>
+					</section>
+				</section><!--END STROM-->
+
+				<section  data-background="#aaaaaa"><!-- CHIPSET--><p class="left">Chipset</p>
+					<section>
+						<h4>CHIPSET</h4>
+						<p class="fragment"><img src="mainimg/chipset.png" height="400px"></p>
+					</section>
+				</section><!--END CHIPS-->
+
+				<section><!--BRÜCKEN--><p class="left">North- and Southbridge</p>
+					<section>
+						<p class="fragment"><img src="mainimg/smbus.png" height="400px"></p>
+					</section>
+					<section>
+						<h4>Northbridge</h4>
+						<p class="fragment">Zuständig für Sync von</p>
+						<p class="fragment">CPU / Graka / RAM</p>
+						<p class="fragment">PCI-/ Express</p>
+					</section>
+					<section>
+						<h4>Southbridge</h4>
+						<p class="fragment">Zuständig für Sync von</p>
+						<p class="fragment">Peripherie, Bios und </p>
+						<p class="fragment">PCI-/ Express</p>
+					</section>
+				</section><!--END BRÜCKEN-->
+
+				<section><!--TODO: Bios--><p class="left">Bios</p>
+					<section>
+						<p class="fragment">Basic Input Output System<img src="mainimg/phoenix.png" height="400px"></p>
+					</section>
+					<section>
+						<p class="fragment">Bios übernimmt die Kommunikation</br> zwischen Hardware auf dem Mainboard</p>
+					</section>
+					<section>
+						<p class="fragment">Batterie Leer?</br><img src="mainimg/ripBatteroni.jpg" height="400px"></p>
+					</section>	
+				</section><!--END TODO-->
+
+				<section><!--TODO: LAST SHIT--><p class="left">Fazit</p>
+					<section>
+						<h4>Worauf muss ich achten?</h4>
+					</section>
+					<section data-transition="fade">
+						<img src="mainimg/crossfire.jpg" height="400px">
+					</section>
+					<section data-transition="fade">	
+						<img src="mainimg/what.jpg" height="400px">
+					</section>
+					<section data-transition="fade">
+						<img src="mainimg/crossfire.jpg" height="400px">
+					</section>
+				</section><!--END TODO-->
+
+				<section><!--TODO: Quellen--><p class="left">Ende</p>
+					<section>
+						<h4>Vielen Dank!</h4>
+					</section>
+				</section><!--END TODO-->
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
