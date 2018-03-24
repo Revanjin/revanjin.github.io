@@ -1,3 +1,25 @@
-.clearfix {
-    overflow: auto;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: SlateGrey;
+}
+.flex-box {
+    min-width: 70px;
+    background-color: navy;
+}
+.flex-three {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.mt-6,
+.my-6 {
+  margin-top: 6rem !important;
+}
+.nav-item {
+	margin-right: 10px;
 }

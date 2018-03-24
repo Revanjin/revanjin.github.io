@@ -9,11 +9,13 @@
     <title>Github Playground</title>
 
     <!-- Bootstrap core CSS -->
-    <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Custom fonts for this template -->
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
@@ -24,21 +26,29 @@
 
 <body>
 
-<h1 class="site-heading text-center text-white d-none d-lg-block">
+<h1 class="site-heading text-center">
     <span class="text-primary">Let's have fun with Github Pages.!</span>
 </h1>
 
+<!--flex Navigation-->
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">This is a Bootstrap 4.0 Navbar</a>
     <div class="container">
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-5">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Projekte</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"href="">Projekte(needs fix)</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#">Bingo(.js)</a>
+						  <a class="dropdown-item" href="#">Zeitstempel(.ts)</a>
+						  <a class="dropdown-item" href="#">Maths Stuff</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Cosplay</a>
+						</div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Mainboard.html">Mainboard</a>
@@ -47,50 +57,41 @@
                     <a class="nav-link" href="https://revanjin.github.io/Tanachai.github.io/">Portfolio</a>
                 </li>
             </ul>
-            <!--form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-            </form--><!--vorrübergehend weglassen!-->
         </div>
     </div>
 </nav>
 
-<div class="container clearfix">
-    <div class="text-center p-5 rounded">
+<div class="container flex-container clearfix">
+	<div class="text-center p-5 rounded">
         <h2 class="section-heading mb-4">
             <span>Why am I doing this?!</span>
         </h2>
         <img src="https://cdn-images-1.medium.com/max/545/0*Le4NWnMPwFOvu5ea.png" style="float:left;">
-        <p class="mt-5">I am trying to improve my programming skills like Javascript, Angular.js, Node.js and Typescript
+        <p class="mt-6">I am trying to improve my programming skills like Javascript, Angular.js, Node.js and Typescript
             nevertheless sometimes it feels painful to find a good start.
         </p>
-        <p>
+        <p class="mt-4">
             Perchance Github Pages could be a good step on
             working with these Programming Languages.
         </p>
-        <p>
-            TEST
-        </p>
-        <p class="mb-3"> Everyone who worked with a Framework, especially AngularJS might know these problems :)
+        <p class="mt-4"> Everyone who worked with a Framework, especially AngularJS might know these problems :)
         </p>
     </div>
 </div>
 
-<div class="container clearfix">
-    <div class="text-center p-5 rounded">
-        <h2 class="section-heading mb-4">
-            <span>Github Pages is awesome!</span>
-        </h2>
-        <p class="mb-3">In the near future I will try to upload progress pictures of the Cosplays i am working on.
-            Currently I am working on Reinhardt from Overwatch and a small update on Garen from League of Legends.
-        </p>
-    </div>
+<div class="container flex-container clearfix mb-5">
+	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am on the left side and centered!
+        </p></div>
+	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am in the middle side and centered!
+        </p></div>
+	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am on the right side and centered!
+        </p></div>
 </div>
 
 
 <footer class="footer text-center">
     <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 small">Copyright &copy; Tarno</p>
     </div>
 </footer>
 </body>
