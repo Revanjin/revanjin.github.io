@@ -13,5 +13,5 @@ githubApp.config(function($stateProvider, $urlRouterProvider){
         component: 'test'
     }
     $stateProvider.state(home).state(test);
-    $urlRouterProvider.when('/index.html', '/index.html#!/home');
+    $urlRouterProvider.when('/', '/index.html#!/home');
 })
