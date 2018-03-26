@@ -1,8 +1,9 @@
 var githubApp = angular.module('app', ['ui.router']);
 
-githubApp.config(function($stateProvider){
+githubApp.config(function($stateProvider, $urlRouterProvider){
     var home = {
         name: 'home',
+        abstract: true,
         url: '/home',
         component: 'home'
     }
@@ -12,4 +13,5 @@ githubApp.config(function($stateProvider){
         component: 'test'
     }
     $stateProvider.state(home).state(test);
+    $urlRouterProvider.when('/index.html', '/index.html#!/home');
 })
