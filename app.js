@@ -3,7 +3,6 @@ var githubApp = angular.module('app', ['ui.router']);
 githubApp.config(function($stateProvider, $urlRouterProvider){
     var home = {
         name: 'home',
-        abstract: true,
         url: '/home',
         component: 'home'
     }
