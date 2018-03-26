@@ -6,11 +6,11 @@ githubApp.config(function($stateProvider, $urlRouterProvider){
         url: '/home',
         component: 'home'
     }
-    var test = {
-        name: 'test',
-        url: '/test',
-        component: 'test'
+    var uiRouter = {
+        name: 'uiRouter',
+        url: '/uiRouter',
+        component: 'uiRouter'
     }
-    $stateProvider.state(home).state(test);
+    $stateProvider.state(home).state(uiRouter);
     $urlRouterProvider.otherwise('/home');
 })
