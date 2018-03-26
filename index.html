@@ -12,24 +12,25 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="css/style.css">
+    <link href="bootstrap/js/bootstrap.min.js">
     <!-- Custom fonts for this template -->
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="components/home.js"></script>
+    <script src="components/test.js"></script>
 </head>
 
-<body>
+<body ng-app="app">
 
 <h1 class="site-heading text-center">
     <span class="text-primary">Let's have fun with Github Pages.!</span>
 </h1>
-<!--div app></div>
 <!--flex Navigation-->
 
 <!-- Navigation -->
@@ -38,9 +39,12 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-5">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" ui-sref="home" ui-sref-active="active">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" ui-sref="test">Test</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="zeitstempel.html">Projekte(needs fix)</a>
                 </li>
                 <li class="nav-item">
@@ -53,34 +57,8 @@
         </div>
     </div>
 </nav>
-<div class="container">
-<div class="flex-container clearfix">
-	<div class="text-center p-5 rounded">
-        <h2 class="section-heading mb-4">
-            <span>Why am I doing this?!</span>
-        </h2>
-        <img src="https://cdn-images-1.medium.com/max/545/0*Le4NWnMPwFOvu5ea.png" style="float:left;">
-        <p class="mt-6">I am trying to improve my programming skills like Javascript, Angular.js, Node.js and Typescript
-            nevertheless sometimes it feels painful to find a good start.
-        </p>
-        <p class="mt-4">
-            Perchance Github Pages could be a good step on
-            working with these Programming Languages.
-        </p>
-        <p class="mt-4"> Everyone who worked with a Framework, especially AngularJS might know these problems :)
-        </p>
-    </div>
-</div>
-<div class="flex-container clearfix mb-5">
-	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am on the left side and centered!
-        </p></div>
-	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am in the middle side and centered!
-        </p></div>
-	<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am on the right side and centered!
-        </p></div>
-</div>
+<ui-view></ui-view>
 
-</div>
 
 <footer class="footer text-center">
     <div class="container">
