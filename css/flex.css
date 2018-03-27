@@ -66,6 +66,7 @@
 .flex-three {
     margin-left: 1em;
     margin-right: 1em;
+    word-wrap: break-word;
 }
 
 @media (max-width: 992px) {

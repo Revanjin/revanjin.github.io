@@ -17,7 +17,7 @@ angular.module('app').component('home', {
     '</p>\n' +
     '</div>\n' +
     '</div>\n' +
-    '<div class="flex-container clearfix mb-5">\n' +
+    '<div class="flex-container container clearfix mb-5">\n' +
     '    <div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am on the left side and centered!\n' +
     '</p></div>\n' +
     '<div class="text-center flex-three"><p>I am just a random text in a Flexbox. I am in the middle side and centered!\n' +
