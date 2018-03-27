@@ -55,6 +55,14 @@
     word-wrap: break-word;
 }
 
+.flex-box-left > img,
+.flex-box-center > img,
+.flex-box-right > img {
+    width: 250px;
+    height: 250px;
+    background-color: #38444e;
+}
+
 .flex-three {
     margin-left: 1em;
     margin-right: 1em;
