@@ -2,9 +2,11 @@
 .my-6 {
     margin-top: 6rem !important;
 }
+
 .nav-item {
     margin-right: 10px;
 }
+
 /* Grow */
 .hvr-grow {
     display: inline-block;
@@ -17,6 +19,7 @@
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -35,6 +38,7 @@
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
@@ -54,6 +58,7 @@
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-bubble-float-right:before {
     position: absolute;
     z-index: -1;
@@ -68,11 +73,25 @@
     -webkit-transition-property: transform;
     transition-property: transform;
 }
+
 .hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
 }
+
 .hvr-bubble-float-right:hover:before, .hvr-bubble-float-right:focus:before, .hvr-bubble-float-right:active:before {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
+}
+
+.red {
+    background-color: #ff424e;
+}
+
+.green {
+    background-color: #49c972;
+}
+
+.blue {
+    background-color: #6bf2d8;
 }
