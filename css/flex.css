@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    max-height: 250px;
 }
 
 .flex-nav {
@@ -24,7 +25,6 @@
     align-self: center;
     width: 100%;
 }
-
 
 @media (min-width: 993px) {
     .flex-box-left {
@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 992px) {
+    .flex-container {
+        max-height: 200px;
+    }
+
     .flex-box-left {
         flex-basis: 25%;
     }
@@ -108,6 +112,10 @@
 }
 
 @media (max-width: 640px) {
+    .flex-container {
+        max-height: 150px;
+    }
+
     .flex-box-left {
         flex-basis: 50%;
     }
