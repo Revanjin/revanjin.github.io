@@ -4,12 +4,12 @@ githubApp.config(function($stateProvider, $urlRouterProvider){
     $stateProvider
         .state('home', {
             url: '/home',
-            component: 'home'
+            templateUrl: 'components/home.html'
     })
     $stateProvider
         .state('uiRouter', {
             url: '/uiRouter',
-            component: 'uiRouter'
+            templateUrl: 'components/uiRouter.html'
         })
     $urlRouterProvider.otherwise('/home');
 })
