@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flex.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/angular-ui-route.min.js"></script>
@@ -23,57 +24,18 @@
 <h1 class="site-heading text-center">
     <span class="text-primary">Let's have fun with Github Pages.!</span>
 </h1>
-<!-- Navigation -->
-<!--nav-- class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-5">
-            <li class="nav-item">
-                <a class="nav-link" ui-sref="home" ui-sref-active="active">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" ui-sref="uiRouter">Hover</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="zeitstempel.html">Projekte(needs fix)</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="mainboard.html">Mainboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://revanjin.github.io/Tanachai.github.io/">Portfolio</a>
-            </li>
-        </ul>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarColor01"
-            aria-controls="navbarColor01"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</nav-->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarColor01"
-        aria-controls="navbarColor01"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand" href="#">Pepsi Max</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto container">
-            <li class="nav-item active">
+	<div class="container">
+		<div class="collapse navbar-collapse" id="navbarColor01">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
                 <a class="nav-link" ui-sref="home" ui-sref-active="active">Home</a>
             </li>
-            <li class="nav-item">
+			<li class="nav-item">
                 <a class="nav-link" ui-sref="uiRouter">Hover</a>
             </li>
             <li class="nav-item">
@@ -85,9 +47,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://revanjin.github.io/Tanachai.github.io/">Portfolio</a>
             </li>
-        </ul>
-    </div>
-</nav>
+		  </ul>
+		</div>
+	</div>
+  </nav>
 
 <ui-view></ui-view>
 
