@@ -103,6 +103,17 @@ footer {
     background-color: #6bf2d8;
 	color: #321321;
 }
+.maroon {
+    background-color: #800000;
+}
+
+.sea-green {
+    background-color: #20B2AA;
+}
+
+.midnight-blue {
+    background-color: #191970;
+}
 .background-dark {
 	width: 100%;
 	height: 100%;
