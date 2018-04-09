@@ -5,13 +5,13 @@ body {
 footer {
 	color: #dddddd;
 }
-.mt-6,
-.my-6 {
-    margin-top: 6rem !important;
-}
 
 .nav-item {
     margin-right: 10px;
+}
+.big {
+	font-size: 16px;
+	font-weight:600;
 }
 
 /* Grow */
@@ -101,6 +101,7 @@ footer {
 
 .blue {
     background-color: #6bf2d8;
+	color: #321321;
 }
 .background-dark {
 	width: 100%;
@@ -111,4 +112,9 @@ footer {
 	min-height: 750px;
     background-position: center; 
     background-repeat: no-repeat;
+}
+#back-beach {
+    width:100%; 
+    background: url(../img/beach.jpg);
+	min-height: 350px;
 }

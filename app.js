@@ -11,5 +11,10 @@ githubApp.config(function($stateProvider, $urlRouterProvider){
             url: '/uiRouter',
             templateUrl: 'components/uiRouter.html'
         })
+	$stateProvider
+        .state('snake', {
+            url: '/snake',
+            templateUrl: 'components/snake.html'
+        })
     $urlRouterProvider.otherwise('/home');
 })
